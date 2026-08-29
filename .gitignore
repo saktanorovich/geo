@@ -1,0 +1,19 @@
+# Compiled solutions (check.py builds and deletes these itself)
+*.exe
+*.obj
+*.o
+
+# Python bytecode, from importing check.py as a module
+__pycache__/
+*.pyc
+
+# Scratch: drafts, notes and alternative implementations kept out of the repo
+*.temp/
+
+# Editor / IDE
+.vs/
+.vscode/
+.idea/
+
+# Claude Code local settings; skills under .claude/skills are tracked
+.claude/settings.local.json
